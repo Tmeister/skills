@@ -1,0 +1,21 @@
+{
+  "project": "<project-name>",
+  "branchName": "ralph/<feature-name-kebab-case>",
+  "description": "<short feature description>",
+  "userStories": [
+    {
+      "id": "US-001",
+      "title": "<story title>",
+      "description": "As a <user>, I want <feature> so that <benefit>.",
+      "acceptanceCriteria": [
+        "<criterion 1>",
+        "<criterion 2>",
+        "Typecheck/lint/test passes",
+        "Verify in browser (UI only)"
+      ],
+      "priority": 1,
+      "passes": false,
+      "notes": ""
+    }
+  ]
+}
