@@ -1,0 +1,34 @@
+{
+  "project": "jwt",
+  "hqRepo": {
+    "key": "jwt-hq",
+    "slug": "jwtpro/jwt-hq",
+    "path": "/Users/tmeister/Code/Agents/jwt"
+  },
+  "repos": {
+    "jwt-site": {
+      "slug": "Tmeister/jwt-site",
+      "path": "/Users/tmeister/Code/Personal/jwt-site",
+      "contentDir": "content/blog"
+    },
+    "jwt-auth-docs": {
+      "slug": "Tmeister/jwt-auth-docs",
+      "path": "/Users/tmeister/Code/Personal/jwt-auth-docs"
+    },
+    "jwt-auth-pro": {
+      "slug": "Tmeister/jwt-auth-pro",
+      "path": "/Users/tmeister/Code/Personal/jwt-auth-pro"
+    },
+    "wp-api-jwt-auth": {
+      "slug": "Tmeister/wp-api-jwt-auth",
+      "path": "/Users/tmeister/Code/Personal/wp-api-jwt-auth"
+    }
+  },
+  "content": {
+    "queuePath": "data/seo/content-queue.json",
+    "clusterConfigPath": "scripts/seo/configs/clusters.json",
+    "gscDir": "data/seo/gsc",
+    "keywordsDir": "data/seo/keywords",
+    "siteRepoKey": "jwt-site"
+  }
+}

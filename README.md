@@ -17,11 +17,15 @@ Skills are markdown files that describe a repeatable workflow. Agents can auto-a
 | [draft-issue](skills/draft-issue/) | Research and draft a high quality GitHub issue before creating it. |
 | [empower-sync](skills/empower-sync/) | Sync a commit from the gemini remote into sync-upstream for empower-site. |
 | [feature-issue](skills/feature-issue/) | Implement a feature from a GitHub issue with a structured, review-first workflow. |
+| [growth-planning](skills/growth-planning/) | Define or revise the JWT estate growth plan from HQ data and repo context. |
 | [git-branch-cleanup](skills/git-branch-cleanup/) | Safely clean merged and stale git branches with explicit confirmations. |
 | [laravel-simplifier](skills/laravel-simplifier/) | Simplify and refine PHP/Laravel code for clarity and maintainability without changing behavior. |
+| [morning-review](skills/morning-review/) | Run the JWT HQ daily planning pass across data, issues, and repo activity. |
 | [pr-review](skills/pr-review/) | Review a GitHub pull request, run targeted checks, and provide a decision-ready summary. |
 | [prd-discovery](skills/prd-discovery/) | Interview the user and write a PRD for Ralph in .prd/prd-<feature>.md. |
 | [prd-to-json](skills/prd-to-json/) | Convert .prd PRD markdown into .prd/prd.json with validation. |
+| [seo-weekly-planning](skills/seo-weekly-planning/) | Plan the weekly JWT Auth Pro content slate and create HQ plus child-repo issues. |
+| [write-post](skills/write-post/) | Execute a JWT blog post from the jwt-site issue through draft PR and tracking updates. |
 | [wp-plugin-changelog](skills/wp-plugin-changelog/) | Generate a WordPress plugin changelog focused on user value and update readme.txt when requested. |
 | [wp-plugin-tag](skills/wp-plugin-tag/) | Create, verify, list, or delete WordPress plugin version tags safely. |
 | [wp-plugin-version](skills/wp-plugin-version/) | Analyze changes and update WordPress plugin version references safely. |
