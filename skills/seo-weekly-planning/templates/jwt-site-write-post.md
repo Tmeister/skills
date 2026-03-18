@@ -2,9 +2,15 @@ Parent: jwtpro/jwt-hq#{hq_issue}
 
 # Write: {title}
 
+## Inventory
+
+- Inventory item: `{inventory_item}`
+- Main question: {main_question}
+- Primary intent: {primary_intent}
+- Product fit: {product_fit}
+
 ## Targeting
 
-- Cluster: {cluster_name} (`{cluster_id}`)
 - Primary keyword: {primary_keyword}
 - Secondary keywords: {secondary_keywords}
 - Search signal: {search_signal}
@@ -18,6 +24,7 @@ Parent: jwtpro/jwt-hq#{hq_issue}
 - Do not turn this into a tutorial or setup walkthrough.
 - Do not duplicate existing published coverage such as `{overlap_posts}`.
 - Keep the article in the decision-stage lane unless the brief explicitly says otherwise.
+- Why this is not a duplicate: {overlap_decision}
 
 ## Article Angle
 

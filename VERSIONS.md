@@ -16,7 +16,8 @@ Current versions of all skills. Use this to track changes over time.
 | pr-review | 1.0.0 | 2026-01-27 |
 | prd-discovery | 1.0.0 | 2026-01-27 |
 | prd-to-json | 1.0.0 | 2026-01-27 |
-| seo-weekly-planning | 1.0.0 | 2026-03-17 |
+| seo-discovery | 1.0.0 | 2026-03-17 |
+| seo-weekly-planning | 1.1.0 | 2026-03-17 |
 | write-post | 1.1.0 | 2026-03-17 |
 | wp-plugin-changelog | 1.0.0 | 2026-01-27 |
 | wp-plugin-tag | 1.0.0 | 2026-01-27 |
@@ -25,6 +26,8 @@ Current versions of all skills. Use this to track changes over time.
 ## Recent Changes
 
 ### 2026-03-17
+- Added `seo-discovery` for inventory-led JWT content discovery.
+- Refactored `seo-weekly-planning` to consume approved inventory items instead of cluster guesses.
 - Added centralized JWT workflow skills and estate manifest.
 - Moved the JWT blog workflow to `seo-weekly-planning` plus `write-post`.
 

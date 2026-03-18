@@ -24,6 +24,7 @@ Skills are markdown files that describe a repeatable workflow. Agents can auto-a
 | [pr-review](skills/pr-review/) | Review a GitHub pull request, run targeted checks, and provide a decision-ready summary. |
 | [prd-discovery](skills/prd-discovery/) | Interview the user and write a PRD for Ralph in .prd/prd-<feature>.md. |
 | [prd-to-json](skills/prd-to-json/) | Convert .prd PRD markdown into .prd/prd.json with validation. |
+| [seo-discovery](skills/seo-discovery/) | Curate the JWT editorial inventory from first-party pain, GSC, keyword research, and current site coverage. |
 | [seo-weekly-planning](skills/seo-weekly-planning/) | Plan the weekly JWT Auth Pro content slate and create HQ plus child-repo issues. |
 | [write-post](skills/write-post/) | Execute a JWT blog post from the jwt-site issue through draft PR and tracking updates. |
 | [wp-plugin-changelog](skills/wp-plugin-changelog/) | Generate a WordPress plugin changelog focused on user value and update readme.txt when requested. |

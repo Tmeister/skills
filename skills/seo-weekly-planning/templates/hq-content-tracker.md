@@ -2,12 +2,23 @@
 
 **Parent:** [SEO Cluster] {cluster_name} (#{parent_issue})
 **Execution issue:** [Tmeister/jwt-site#{site_issue}](https://github.com/Tmeister/jwt-site/issues/{site_issue})
-**Cluster:** {cluster_id}
+**Inventory item:** `{inventory_item}`
+**Main question:** {main_question}
+**Primary intent:** {primary_intent}
+**Product fit:** {product_fit}
 **Target keywords:** {primary_keyword}, {secondary_keywords}
 
 ## Goal
 
-Publish a Delicious Brains-quality post that improves topical authority for the cluster and matches the execution brief in the linked `jwt-site` issue.
+Publish a Delicious Brains-quality post that answers a distinct developer question and matches the execution brief in the linked `jwt-site` issue.
+
+## Why This Page Exists
+
+{rationale}
+
+## Overlap Decision
+
+{overlap_decision}
 
 ## Tracking
 

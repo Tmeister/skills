@@ -26,6 +26,8 @@
   },
   "content": {
     "queuePath": "data/seo/content-queue.json",
+    "pageInventoryPath": "data/seo/page-inventory.json",
+    "editorialScopePath": "scripts/seo/configs/editorial-scope.json",
     "clusterConfigPath": "scripts/seo/configs/clusters.json",
     "gscDir": "data/seo/gsc",
     "keywordsDir": "data/seo/keywords",

@@ -27,9 +27,11 @@ Do not use this skill to implement repo changes. It is the planning pass, not th
 6. `<hq>/docs/playbooks/issue-linking.md`
 7. `<hq>/docs/playbooks/data-refresh.md`
 8. `<hq>/docs/playbooks/morning-review.md`
-9. Latest approved growth plan in `<hq>/reports/quarterly/` if one exists
-10. Yesterday's daily brief if it exists
-11. The active parent issue in `jwtpro/jwt-hq` when the run is anchored to a current initiative
+9. `<hq>/scripts/seo/configs/editorial-scope.json`
+10. `<hq>/data/seo/page-inventory.json`
+11. Latest approved growth plan in `<hq>/reports/quarterly/` if one exists
+12. Yesterday's daily brief if it exists
+13. The active parent issue in `jwtpro/jwt-hq` when the run is anchored to a current initiative
 
 Resolve `<hq>` from `../shared/jwt-estate.json`.
 
@@ -44,9 +46,13 @@ Resolve `<hq>` from `../shared/jwt-estate.json`.
    - Check what changed since yesterday in HQ issues.
    - Review lightweight recent activity in `jwt-site`, `wp-api-jwt-auth`, `jwt-auth-pro`, and `jwt-auth-docs`.
 3. Check content pipeline status.
+   - Read `<hq>/data/seo/page-inventory.json`.
    - Read `<hq>/data/seo/content-queue.json`.
+   - Report how many inventory items are `existing`, `refresh`, `new`, and `reject`.
+   - Flag the inventory as stale when it has not been refreshed for the current planning window.
+   - Confirm queued topics still map to approved inventory items.
    - Count topics remaining this week with status not yet `published` or `superseded`.
-   - Identify the next actionable topic by priority, using the site issue as the execution contract.
+   - Identify the next actionable topic by priority only when it maps to an approved inventory item, using the site issue as the execution contract.
    - Count how many topics were published this week vs the target of 3.
    - If the latest GSC data shows a quick win or declining query that relates to a queued or draft-PR topic, note it.
 4. Analyze what changed.
@@ -109,6 +115,7 @@ Then perform the issue review and brief-writing steps directly.
 - linked child repo issues only when implementation scope is already clear
 - up to five items marked `ready for execution today`
 - `Content Pipeline` section in the daily brief showing: queue status, next content task, published count vs target, and any GSC signals relevant to queued or draft-PR content
+- `Content Pipeline` section in the daily brief showing: inventory health, queue status, next valid content task, published count vs target, and any GSC signals relevant to queued or draft-PR content
 - priorities that align with the latest approved growth plan when one exists
 
 ## Stop Boundary
